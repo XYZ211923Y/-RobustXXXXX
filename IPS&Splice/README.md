@@ -1,3 +1,5 @@
+# IPS and Splice dataset
+## Parameters
 4 parameters: dataset, budget, modeltype, time
 
 dataset: 'Splice' (default), 'IPS'
@@ -10,9 +12,9 @@ time: 60(default)
 
 
 
-**Template:** 
+## Template
 
 python OMPGSmax.py --dataset Splice --modeltype adversarial
 
-python -u FSGSmax.py --dataset Splice --modeltype adversarial --time 60 --budget 5
+python FSGSmax.py --dataset Splice --modeltype adversarial --time 60 --budget 5
 
